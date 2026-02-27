@@ -1,0 +1,63 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f7ff;
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #4f46e5;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ol li {
+    margin: 6px 0;
+    font-weight: 500;
+}
+
+.mern-img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.mern-link {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #4f46e5;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.mern-link:hover {
+    background-color: #3730a3;
+}
+
+.mern-link:visited {
+    color: #fff;
+}

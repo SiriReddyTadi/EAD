@@ -1,0 +1,63 @@
+body {
+    font-family: "Segoe UI", Calibri, Arial, sans-serif;
+    background-color: #f4f6fb;
+    margin: 0;
+}
+
+.resume-container {
+    width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.1);
+}
+
+.name {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+h2 {
+    color: #4f46e5;
+    border-bottom: 2px solid #e0e7ff;
+    padding-bottom: 4px;
+    margin-top: 20px;
+}
+
+.edu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.edu-table th,.edu-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.edu-table th {
+    background-color: #4f46e5;
+    color: white;
+}
+
+.edu-table tr {
+    background-color: #f1f3ff;
+}
+
+.skills {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.skills li {
+    margin-bottom: 6px;
+}

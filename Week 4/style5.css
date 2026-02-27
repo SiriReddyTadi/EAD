@@ -1,0 +1,57 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6ff;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.user-fieldset {
+    border: 2px solid #4f46e5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.user-fieldset legend {
+    font-weight: bold;
+    color: #4f46e5;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.user-fieldset label {
+    display: block;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.user-fieldset input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.user-fieldset button {
+    margin-top: 18px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.user-fieldset button:hover {
+    background-color: #3730a3;
+}

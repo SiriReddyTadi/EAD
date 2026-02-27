@@ -1,0 +1,83 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f7ff;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.feedback-form {
+    width: 420px;
+    margin: 30px auto;
+    padding: 22px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.feedback-form label {
+    display: block;
+    margin-top: 14px;
+    font-weight: 600;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+    width: 100%;
+    padding: 9px;
+    margin-top: 6px;
+    border: 1px solid #bfbfbf;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.feedback-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    border-color: #4f46e5;
+    outline: none;
+    box-shadow: 0 0 6px rgba(79,70,229,0.25);
+}
+
+.radio-group {
+    margin-top: 8px;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+
+.radio-item input {
+    transform: scale(1.1);
+}
+
+.feedback-form button {
+    margin-top: 18px;
+    width: 100%;
+    padding: 11px;
+    background: linear-gradient(90deg, #5b52d6, #4f46e5);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.feedback-form button:hover {
+    background: linear-gradient(90deg, #4f46e5, #3730a3);
+}
