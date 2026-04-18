@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Search */
+.search {
+  padding: 8px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+/* Table */
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 15px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
